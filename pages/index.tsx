@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   
   if(isLoading){
 
-    return <div>Loading...</div>
+    return <div>Loaded!</div>
   }
 
   return (
