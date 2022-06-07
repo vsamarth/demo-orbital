@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   const { user, isLoading } = useUser();
   
   if(isLoading){
-    return <div>Waiting...</div>
+    return <div>Loading...</div>
   }
 
   return (
